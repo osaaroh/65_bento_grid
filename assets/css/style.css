@@ -331,6 +331,7 @@ main{
   flex-basis: 0; */
   /* or */
   width: 60%;
+  font-weight: 500;
 }
 .bento_item_5 .image_container{
   /* flex-grow: 1;
