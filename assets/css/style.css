@@ -142,10 +142,23 @@ main{
   padding: unset;
 }
 
+@media only screen and (max-width: 930px) {
+  .bento_item_2 {
+    gap: 2.5rem;
+  }
+}
+
 .bento_item_2 img{
   width: 150%;
   object-fit: contain;
   max-width: unset;
+}
+
+@media only screen and (max-width: 930px) {
+  .bento_item_2 img{
+    width: 100%;
+    max-width: 500px;
+  }
 }
 
 .bento_item_2 .image_container{
@@ -155,6 +168,12 @@ main{
 
 .bento_item_2 .main_text{
   padding: 1rem 2rem 0 2rem;
+}
+
+@media only screen and (max-width: 930px) {
+  .bento_item_2 .main_text{
+    padding: 2rem;
+  }
 }
 
 
@@ -175,11 +194,26 @@ main{
   padding: unset;
 }
 
+@media only screen and (max-width: 930px) {
+  .bento_item_3{
+    gap: 2rem;
+  }
+}
+
 .bento_item_3 img{
   height: 180%;
   width: 105%;
   object-fit: contain;
   max-width: unset;
+}
+
+@media only screen and (max-width: 930px) {
+  .bento_item_3 img{
+    height: 115%;
+    width: 100%;
+    object-fit: contain;
+    max-width: 500px;
+  }
 }
 
 .bento_item_3 .image_container{
@@ -231,6 +265,12 @@ main{
 .bento_item_4 .image_container{
   overflow: hidden;
   padding-left: 2rem;
+}
+
+@media only screen and (max-width: 930px) {
+  .bento_item_4 .image_container{
+    padding: 2rem;
+  }
 }
 
 
@@ -344,4 +384,12 @@ main{
   font-weight: 600;
   line-height: 34px;
 }    
+
+@media only screen and (max-width: 930px) {
+  .bento_item_8 img{
+    width: 100%;
+    object-fit: contain;
+    max-width: 500px;
+  }
+}
 
