@@ -1,5 +1,5 @@
 
-@font-face {
+@font-face { 
   font-family: 'DMSans';
   src: url('../fonts/DMSans_Italic.ttf') format ('truetype');
   font-weight: normal;
@@ -80,10 +80,16 @@ main{
     "multipleAccounts"
     "consistentPosting"
     "schedule"
-    "scheduleQuicker"
     "growFollowers"
     "fasterAudienceGrowth"
+    "scheduleQuicker"
     "aiwriting";
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .bento_grid{
+    padding: 1rem;
   }
 }
 
@@ -117,16 +123,21 @@ main{
   font-weight: 600;
   /* line-height: 34px; */
 }
+
+@media only screen and (max-width: 576px) {
+  .bento_item_1 .main_text{
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 45px;
+  }
+}
 .bento_item_1 .italics{
   font-style: italic;
 }
 .bento_item_1 .color{
   color: var(--Yellow-500);
 }
-.bento_item_1 .main_text{
-  font-size: 3.45rem;
-  font-weight: 600;
-}
+
 .bento_item_1 img {
   max-width: 175px;
 }
@@ -145,6 +156,18 @@ main{
 @media only screen and (max-width: 930px) {
   .bento_item_2 {
     gap: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .bento_item_2 {
+    gap: unset;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .bento_item_2 .main_text{
+    padding: 1rem 2rem 2rem 2rem;
   }
 }
 
@@ -183,6 +206,20 @@ main{
   font-weight: 600;
   line-height: 28px;
 }
+
+@media only screen and (max-width: 576px) {
+  .bento_item_2 .main_text{
+    padding: 1rem 2rem 2rem 2rem;
+  }
+
+  .bento_item_2 .main_text, 
+  .bento_item_3 .main_text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 28px;
+  }
+}
+
 
 .bento_item_3 {
   grid-area: consistentPosting;
@@ -273,8 +310,6 @@ main{
   }
 }
 
-
-
 .bento_item_5 {
   grid-area: growFollowers;
   background: var(--Purple-500);
@@ -283,7 +318,6 @@ main{
   justify-content: center;
   align-items: center;
   gap: 1.2rem;
-
 }
 
 @media only screen and (max-width: 930px) {
@@ -329,6 +363,15 @@ main{
   }
 }
 
+@media only screen and (max-width: 576px) {
+  .bento_item_5 .main_text{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  } 
+}
+
 
 .bento_item_6 {
   grid-area: fasterAudienceGrowth;
@@ -361,6 +404,14 @@ main{
   font-weight: 600;
   line-height: 34px;
 }
+
+@media only screen and (max-width: 576px) {
+  .bento_item_7 .main_text{
+    font-size: 1.88rem;
+    font-weight: 600;
+    line-height: 34px;
+  } 
+}
 .bento_item_7 .main_text span{
   color: var(--Purple-500);
   font-style: italic;
@@ -391,5 +442,13 @@ main{
     object-fit: contain;
     max-width: 500px;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .bento_item_8 .main_text{
+    font-size: 1.88rem;
+    font-weight: 600;
+    line-height: 34px;
+  } 
 }
 
