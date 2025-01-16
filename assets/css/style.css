@@ -120,14 +120,13 @@ main{
 
 .bento_item_1 .main_text{
   font-size: 3.45rem;
-  font-weight: 600;
+  font-weight: 500;
   /* line-height: 34px; */
 }
 
 @media only screen and (max-width: 576px) {
   .bento_item_1 .main_text{
     font-size: 2.8rem;
-    font-weight: 600;
     line-height: 45px;
   }
 }
@@ -203,7 +202,7 @@ main{
 .bento_item_2 .main_text, 
 .bento_item_3 .main_text{
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 28px;
 }
 
@@ -215,8 +214,6 @@ main{
   .bento_item_2 .main_text, 
   .bento_item_3 .main_text{
     font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 28px;
   }
 }
 
@@ -278,7 +275,7 @@ main{
 }
 .bento_item_4 .main_text{
     font-size: 1.85rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 34px;
   }
   .bento_item_4 .alt_text{
@@ -366,7 +363,6 @@ main{
 @media only screen and (max-width: 576px) {
   .bento_item_5 .main_text{
     font-size: 1.6rem;
-    font-weight: 600;
     line-height: 28px;
     text-align: center;
   } 
@@ -386,7 +382,7 @@ main{
 
 .bento_item_6 .main_text{
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 500;
   
 }
 .bento_item_7 {
@@ -401,15 +397,13 @@ main{
 
 .bento_item_7 .main_text{
   font-size: 2.35rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 34px;
 }
 
 @media only screen and (max-width: 576px) {
   .bento_item_7 .main_text{
     font-size: 1.88rem;
-    font-weight: 600;
-    line-height: 34px;
   } 
 }
 .bento_item_7 .main_text span{
@@ -432,7 +426,7 @@ main{
 
 .bento_item_8 .main_text{
   font-size: 2.35rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 34px;
 }    
 
@@ -447,7 +441,6 @@ main{
 @media only screen and (max-width: 576px) {
   .bento_item_8 .main_text{
     font-size: 1.88rem;
-    font-weight: 600;
     line-height: 34px;
   } 
 }
