@@ -67,8 +67,24 @@ main{
     "aiwriting multipleAccounts consistentPosting schedule"
     "aiwriting fasterAudienceGrowth growFollowers growFollowers"
     "aiwriting fasterAudienceGrowth growFollowers growFollowers";
-
     padding: 3rem;
+}
+
+@media only screen and (max-width: 930px) {
+  .bento_grid{
+    max-width: 800px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "hero"
+    "multipleAccounts"
+    "consistentPosting"
+    "schedule"
+    "scheduleQuicker"
+    "growFollowers"
+    "fasterAudienceGrowth"
+    "aiwriting";
+  }
 }
 
 .bento_item{
@@ -204,10 +220,20 @@ main{
   object-fit: unset;
   max-width: unset;
 }
+
+@media only screen and (max-width: 930px) {
+  .bento_item_4 img{
+    width: 100%;
+    object-fit: contain;
+    max-width: 500px;
+  }
+}
 .bento_item_4 .image_container{
   overflow: hidden;
   padding-left: 2rem;
 }
+
+
 
 .bento_item_5 {
   grid-area: growFollowers;
@@ -218,6 +244,12 @@ main{
   align-items: center;
   gap: 1.2rem;
 
+}
+
+@media only screen and (max-width: 930px) {
+  .bento_item_5{
+    flex-direction: column;
+  }
 }
 
 .bento_item_5 .main_text{
@@ -235,8 +267,29 @@ main{
   /* or */
   width: 40%;
 }
-.bento_item_5 img{
+
+@media only screen and (max-width: 930px) {
+  .bento_item_5 .main_text{
+    flex-grow: 1;
+    flex-basis: 0;
+    /* or */
+    width: unset;
+  }
+  .bento_item_5 .image_container{
+    flex-grow: 1;
+    flex-basis: 0;
+    /* or */
+    width: unset;
+  }
+
+  .bento_item_5 img{
+    width: 100%;
+    object-fit: contain;
+    max-width: 500px;
+  }
 }
+
+
 .bento_item_6 {
   grid-area: fasterAudienceGrowth;
   display: flex;
@@ -291,3 +344,4 @@ main{
   font-weight: 600;
   line-height: 34px;
 }    
+
