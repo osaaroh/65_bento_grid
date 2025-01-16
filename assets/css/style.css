@@ -224,7 +224,18 @@ main{
   font-size: 2.35rem;
   font-weight: var(--font-weight-medium);
   line-height: 34px;
-  
+  /* flex-grow: 1;
+  flex-basis: 0; */
+  /* or */
+  width: 60%;
+}
+.bento_item_5 .image_container{
+  /* flex-grow: 1;
+  flex-basis: 0; */
+  /* or */
+  width: 40%;
+}
+.bento_item_5 img{
 }
 .bento_item_6 {
   grid-area: fasterAudienceGrowth;
