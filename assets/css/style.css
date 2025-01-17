@@ -49,14 +49,10 @@ main{
 }
 
 .bento_grid {
-  
   width: 100%;
   max-width: 1200px;
   display: grid;
-  /* gap: 1.5vw;
-  padding: 1vw; */
   gap: 1rem;
-  /* padding:2rem; */
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
@@ -326,16 +322,10 @@ main{
   font-size: 2.35rem;
   font-weight: var(--font-weight-medium);
   line-height: 34px;
-  /* flex-grow: 1;
-  flex-basis: 0; */
-  /* or */
   width: 60%;
   font-weight: 500;
 }
 .bento_item_5 .image_container{
-  /* flex-grow: 1;
-  flex-basis: 0; */
-  /* or */
   width: 40%;
 }
 
@@ -343,7 +333,6 @@ main{
   .bento_item_5 .main_text{
     flex-grow: 1;
     flex-basis: 0;
-    /* or */
     width: unset;
   }
   .bento_item_5 .image_container{
