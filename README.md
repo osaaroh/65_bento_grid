@@ -16,8 +16,6 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 
@@ -43,47 +41,37 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
+- CSS grid-template-areas and grid-area
 
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.bento_grid {
+  
+  grid-template-areas:
+    "scheduleQuicker hero hero schedule"
+    "scheduleQuicker hero hero schedule"
+    "scheduleQuicker multipleAccounts consistentPosting schedule"
+    "aiwriting multipleAccounts consistentPosting schedule"
+    "aiwriting fasterAudienceGrowth growFollowers growFollowers"
+    "aiwriting fasterAudienceGrowth growFollowers growFollowers";
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.bento_item_1 {
+  grid-area: hero;
 }
+
 ```
-
-Checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 
 ## Author
 
-- Website - [Name here]()
-- Frontend Mentor - [@yourusername]()
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Osaro Iyoha](https://osaro.vercel.app/)
+- Frontend Mentor - [@osaaroh](https://www.frontendmentor.io/profile/osaaroh)
+
+
+Check out [The Markdown Guide](https://www.markdownguide.org/) to learn more about markdown.
 
 
